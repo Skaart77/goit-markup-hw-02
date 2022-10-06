@@ -132,14 +132,20 @@ line-height: 1.71;
 
   /* Portfolio */
 
-.pf-nav{ color: var(--third-bcg-color);
+.pf-nav{
     font-weight: 400;
     font-size: 14px;
     line-height:1.7;
     font-family:inherit;
     cursor: pointer;}
   
-.pf-nav .pf-button:hover , .pf-nav .pf-button:focus { background-color: var(--accent-color);color:var(--primary-white-color);}
+.pf-button{ color: var(--third-bcg-color);
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.62;}
+
+  .pf-nav .pf-button:hover , .pf-nav .pf-button:focus { background-color: var(--accent-color);color:var(--primary-white-color);}
 
 .portfolio-title{ color: var(--primary-text-color);
       font-weight: 700;
