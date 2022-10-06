@@ -132,14 +132,14 @@ line-height: 1.71;
 
   /* Portfolio */
 
-.pf-nav{
+.pf-nav{ color: var(--third-bcg-color);
     font-weight: 400;
     font-size: 14px;
     line-height:1.7;
     font-family:inherit;
     cursor: pointer;}
   
-.pf-button{ color: var(--third-bcg-color);
+.pf-button{
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
