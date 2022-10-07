@@ -2,7 +2,7 @@
 /* Вторинний колір тексту #757575 */
 /* Вторинний колір фону #2F303A / #F5F4FA */
 /* Білий #FFFFFF */
-/* Акцент #2196F3 */
+/* Акцент #2196F3 / #188CE8 */
 /* Вторинний колір фону #2F303A */
 
 :root{ --primary-text-color:#212121;
@@ -10,7 +10,8 @@
      --accent-color: #2196F3;
     --primary-white-color: #fff;
   --secondary-bcg-color:#2F303A;
---third-bcg-color: #F5F4FA;}
+--third-bcg-color: #F5F4FA;
+--accent-secondary-color: #188CE8;}
 
 body { 
 background-color:var(--primary-white-color);
@@ -58,9 +59,11 @@ line-height: 1.19;}
 
 
 /*  Hero button */
-.hero-button {
-   background-color: var(--accent-color);}
-   .text{color: var(--primary-white-color);
+.hero-button { background-color: var(--accent-color);}
+
+.hero-button:hover , .hero-button:focus{ color: var(--accent-secondary-color) } 
+
+.text{color: var(--primary-white-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;}
@@ -132,20 +135,18 @@ line-height: 1.71;
 
   /* Portfolio */
 
-.pf-nav{ color: var(--third-bcg-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height:1.7;
-    font-family:inherit;
-    cursor: pointer;}
+.pf-button{ color: var(--third-bcg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.62;
+  font-family:inherit;
+  cursor: pointer;}
   
 .pf-button{
   color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height:1.62;}
+  }
 
-  .pf-nav .pf-button:hover , .pf-nav .pf-button:focus { background-color: var(--accent-color);color:var(--primary-white-color);}
+.pf-nav .pf-button:hover , .pf-nav .pf-button:focus { background-color: var(--accent-color);color:var(--primary-white-color);}
 
 .portfolio-title{ color: var(--primary-text-color);
       font-weight: 700;
